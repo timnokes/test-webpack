@@ -1,0 +1,90 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.typography-h1,
+.typography-h2,
+.typography-h3,
+.typography-h4,
+.typography-h5,
+.typography-h6 {
+  font-family: 'Cera Bold';
+}
+
+h1,
+.typography-h1 {
+  font-size: 4.0625rem;
+  line-height: 4.6875rem;
+  letter-spacing: -0.03em;
+}
+
+h2,
+.typography-h2 {
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+  letter-spacing: 0;
+}
+
+h3,
+.typography-h3 {
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  letter-spacing: 0;
+}
+
+h4,
+.typography-h4 {
+  font-size: 1.875rem;
+  line-height: 36px;
+  letter-spacing: 0;
+}
+
+h5,
+.typography-h5 {
+  font-size: 1.5625rem;
+  line-height: 2.1875rem;
+  letter-spacing: -0.03em;
+}
+
+h6,
+.typography-h6 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+
+  &.sm {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  &.xs {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+
+  &.xxs {
+    font-size: 0.625rem;
+    line-height: 1rem;
+  }
+}

@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Cera Black';
+  src: url('/src/assets/fonts/CeraPro-Black.woff2') format('woff2'),
+    url('/src/assets/fonts/CeraPro-Black.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Bold';
+  src: url('/src/assets/fonts/CeraPro-Bold.woff2') format('woff2'),
+    url('/src/assets/fonts/CeraPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Light';
+  src: url('/src/assets/fonts/CeraPro-Light.woff2') format('woff2'),
+    url('/src/assets/fonts/CeraPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Thin';
+  src: url('/src/assets/fonts/CeraPro-Thin.woff2') format('woff2'),
+    url('/src/assets/fonts/CeraPro-Thin.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Regular';
+  src: url('/src/assets/fonts/CeraPro-Regular.woff2') format('woff2'),
+    url('/src/assets/fonts/CeraPro-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Medium';
+  src: url('/src/assets/fonts/CeraPro-Medium.woff2') format('woff2'),
+    url('/src/assets/fonts/CeraPro-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Italic';
+  src: url('/src/assets/fonts/CeraPro-Italic.woff2') format('woff2'),
+    url('/src/assets/fonts/CeraPro-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
