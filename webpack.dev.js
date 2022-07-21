@@ -7,10 +7,12 @@ const globImporter = require('node-sass-glob-importer');
 module.exports = merge(common, {
   mode: 'development',
   devServer: {
+    static: path.resolve(__dirname, 'src'),
     port: 8000,
     open: true,
     hot: false,
     liveReload: true,
+    compress: true, 
   },
   output: {
     filename: '[name].bundle.js',
